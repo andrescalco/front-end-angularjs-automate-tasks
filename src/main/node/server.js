@@ -3,6 +3,7 @@ var express = require('express'),
 	app = express(),
 	apiRoutes = express.Router(),
 	port = 8080,
+	opn = require('opn'),
 	config = require('./config/config')(app),
 	router = require('./routes/router')(apiRoutes);
 	routes = require('./routes/routes')(app),
@@ -18,4 +19,7 @@ app.use('/webapp', express.static('../webapp/'));
 app.use(ctrlRequest.badRequest);
 
 // inicia a aplicação
-app.listen(port);
+app.listen(port,function() {
+	console.log('Server running on: http://localhost:' + port + '/webapp')
+	opn('http://localhost:' + port + '/webapp')
+});

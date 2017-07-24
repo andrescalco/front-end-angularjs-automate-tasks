@@ -1,0 +1,21 @@
+{
+  "name": "cinq-get-data",
+  "version": "1.0.0",
+  "description": "Simple init for node API projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Andre Scalco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.81.0"
+  }
+}

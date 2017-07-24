@@ -6,7 +6,7 @@ var express = require('express'),
 	config = require('./config/config')(app),
 	router = require('./routes/router')(apiRoutes);
 	routes = require('./routes/routes')(app),
-	ctrlRequest = require('./controllers/request');
+	ctrlRequest = require('./controllers/Request');
 
 // rotas da api
 app.use('/api',apiRoutes);

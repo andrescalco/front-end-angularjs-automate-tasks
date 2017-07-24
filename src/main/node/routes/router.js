@@ -1,7 +1,7 @@
 // variáveis
-var ctrlIndex   = require('../controllers/index'),
+var ctrlIndex   = require('../controllers/Index'),
 	ctrlPeople = require('../controllers/People'),
-	ctrlRequest = require('../controllers/request');
+	ctrlRequest = require('../controllers/Request');
 
 module.exports = function(apiRoutes){
 

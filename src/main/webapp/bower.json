@@ -1,0 +1,20 @@
+{
+  "name": "webapp",
+  "homepage": "https://github.com/andrescalco/front-end-angularjs-automate-tasks",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/webapp/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-resource": "^1.6.5"
+  }
+}
